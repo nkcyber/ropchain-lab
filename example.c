@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 void win() {
-	puts("you got the shell! here's the flag:");
+	puts("you won! here's the flag:");
 	char *args[] = {"cat", "flag.txt", NULL};
 	execve("/bin/cat", args, NULL);
 }
